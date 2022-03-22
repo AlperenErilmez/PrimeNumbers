@@ -1,0 +1,14 @@
+using System;
+namespace prime_number
+class Program {
+Static void Main(string[] args)
+{
+    Console.WriteLine("3 digit prime numbers starting with 5");
+for(int i= 500;i<600;i++){
+    int syc = 0;
+    for(int j=500;j<600;j++)  if(i%j==0) syc++;
+         if (syc == 2) Console.Write("\t" + i);
+        
+    } Console.ReadLine();
+}
+}
